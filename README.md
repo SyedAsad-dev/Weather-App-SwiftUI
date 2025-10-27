@@ -46,6 +46,7 @@ PRODUCT_BUNDLE_IDENTIFIER = Dvt.Task.ForecastDvt
 - Cashing.
 - Unit Tests.
 - SwiftLint.
+- Git Flow Branch Strategy.
 
 No third party library has benn used.
 
@@ -136,6 +137,12 @@ This application uses the Mixed Interface Modular approach.
 
 <p align="center"> 
 <img src="https://github.com/user-attachments/assets/5d261a40-9f0c-401c-8be5-dcb037dbae48" width="988" height="1524">
+</p>
+
+## Performance Chat
+
+<p align="center"> 
+<img src="https://github.com/user-attachments/assets/4c47a4c1-7c74-48b7-aef4-f553954f8e4c" width="2550" height="460">
 </p>
 
 ## Devices supports:
