@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F08F2E492EA4F16A008B91D7 /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = F08F2E482EA4F16A008B91D7 /* Domain */; };
+		F08F2E4B2EA4F16A008B91D7 /* Forcast in Frameworks */ = {isa = PBXBuildFile; productRef = F08F2E4A2EA4F16A008B91D7 /* Forcast */; };
+		F08F2E4D2EA4F16A008B91D7 /* Router in Frameworks */ = {isa = PBXBuildFile; productRef = F08F2E4C2EA4F16A008B91D7 /* Router */; };
+		F08F2E4F2EA4F16A008B91D7 /* Utils in Frameworks */ = {isa = PBXBuildFile; productRef = F08F2E4E2EA4F16A008B91D7 /* Utils */; };
+		F0C2775B2EA3E0FE001FA722 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = F0C2775A2EA3E0F1001FA722 /* .swiftlint.yml */; };
+		F0EB17D62EA8B68F0041243E /* LocationService in Frameworks */ = {isa = PBXBuildFile; productRef = F0EB17D52EA8B68F0041243E /* LocationService */; };
+		F0EB17D82EA8B68F0041243E /* Models in Frameworks */ = {isa = PBXBuildFile; productRef = F0EB17D72EA8B68F0041243E /* Models */; };
+		F0EB17DC2EA8B68F0041243E /* Repositories in Frameworks */ = {isa = PBXBuildFile; productRef = F0EB17DB2EA8B68F0041243E /* Repositories */; };
+		F0EB17DE2EA8B7D90041243E /* Networks in Frameworks */ = {isa = PBXBuildFile; productRef = F0EB17DD2EA8B7D90041243E /* Networks */; };
+		F0EB17E02EA8BA050041243E /* AppDefault in Frameworks */ = {isa = PBXBuildFile; productRef = F0EB17DF2EA8BA050041243E /* AppDefault */; };
+		F0EB17E22EA8BA050041243E /* EnvironmentManager in Frameworks */ = {isa = PBXBuildFile; productRef = F0EB17E12EA8BA050041243E /* EnvironmentManager */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0C2773E2EA3E0B3001FA722 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0C277262EA3E0B1001FA722 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0C2772D2EA3E0B1001FA722;
+			remoteInfo = ForecastDvt;
+		};
+		F0C277482EA3E0B3001FA722 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0C277262EA3E0B1001FA722 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0C2772D2EA3E0B1001FA722;
+			remoteInfo = ForecastDvt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0875AFD2EA7B5350056E4B2 /* Favorite */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Favorite; sourceTree = "<group>"; };
+		F08F2E432EA4E0F2008B91D7 /* Forcast */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Forcast; sourceTree = "<group>"; };
+		F08F2E442EA4E4DE008B91D7 /* Router */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Router; sourceTree = "<group>"; };
+		F0C2772E2EA3E0B1001FA722 /* ForecastDvt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForecastDvt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C2773D2EA3E0B3001FA722 /* ForecastDvtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForecastDvtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C277472EA3E0B3001FA722 /* ForecastDvtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForecastDvtUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C2775A2EA3E0F1001FA722 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		F0C277712EA3E22A001FA722 /* Domain */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Domain; sourceTree = "<group>"; };
+		F0C277722EA3E23D001FA722 /* Data */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Data; sourceTree = "<group>"; };
+		F0C277732EA3E259001FA722 /* Utils */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Utils; sourceTree = "<group>"; };
+		F0EB17E32EA901840041243E /* CityMap */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CityMap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F0C277302EA3E0B1001FA722 /* ForecastDvt */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ForecastDvt;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0C2772B2EA3E0B1001FA722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0EB17E22EA8BA050041243E /* EnvironmentManager in Frameworks */,
+				F08F2E4B2EA4F16A008B91D7 /* Forcast in Frameworks */,
+				F0EB17E02EA8BA050041243E /* AppDefault in Frameworks */,
+				F08F2E492EA4F16A008B91D7 /* Domain in Frameworks */,
+				F0EB17DC2EA8B68F0041243E /* Repositories in Frameworks */,
+				F08F2E4F2EA4F16A008B91D7 /* Utils in Frameworks */,
+				F08F2E4D2EA4F16A008B91D7 /* Router in Frameworks */,
+				F0EB17DE2EA8B7D90041243E /* Networks in Frameworks */,
+				F0EB17D82EA8B68F0041243E /* Models in Frameworks */,
+				F0EB17D62EA8B68F0041243E /* LocationService in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C2773A2EA3E0B3001FA722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C277442EA3E0B3001FA722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F08F2E452EA4F16A008B91D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0C277252EA3E0B1001FA722 = {
+			isa = PBXGroup;
+			children = (
+				F0C2775A2EA3E0F1001FA722 /* .swiftlint.yml */,
+				F0C277702EA3E20F001FA722 /* Packages */,
+				F0C277302EA3E0B1001FA722 /* ForecastDvt */,
+				F08F2E452EA4F16A008B91D7 /* Frameworks */,
+				F0C2772F2EA3E0B1001FA722 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0C2772F2EA3E0B1001FA722 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0C2772E2EA3E0B1001FA722 /* ForecastDvt.app */,
+				F0C2773D2EA3E0B3001FA722 /* ForecastDvtTests.xctest */,
+				F0C277472EA3E0B3001FA722 /* ForecastDvtUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0C277702EA3E20F001FA722 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				F0EB17E32EA901840041243E /* CityMap */,
+				F0875AFD2EA7B5350056E4B2 /* Favorite */,
+				F08F2E442EA4E4DE008B91D7 /* Router */,
+				F08F2E432EA4E0F2008B91D7 /* Forcast */,
+				F0C277732EA3E259001FA722 /* Utils */,
+				F0C277722EA3E23D001FA722 /* Data */,
+				F0C277712EA3E22A001FA722 /* Domain */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0C2772D2EA3E0B1001FA722 /* ForecastDvt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0C277512EA3E0B3001FA722 /* Build configuration list for PBXNativeTarget "ForecastDvt" */;
+			buildPhases = (
+				F0C2772A2EA3E0B1001FA722 /* Sources */,
+				F0C277742EA3E585001FA722 /* SwiftLint */,
+				F0C2772B2EA3E0B1001FA722 /* Frameworks */,
+				F0C2772C2EA3E0B1001FA722 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F0C277302EA3E0B1001FA722 /* ForecastDvt */,
+			);
+			name = ForecastDvt;
+			packageProductDependencies = (
+				F08F2E482EA4F16A008B91D7 /* Domain */,
+				F08F2E4A2EA4F16A008B91D7 /* Forcast */,
+				F08F2E4C2EA4F16A008B91D7 /* Router */,
+				F08F2E4E2EA4F16A008B91D7 /* Utils */,
+				F0EB17D52EA8B68F0041243E /* LocationService */,
+				F0EB17D72EA8B68F0041243E /* Models */,
+				F0EB17DB2EA8B68F0041243E /* Repositories */,
+				F0EB17DD2EA8B7D90041243E /* Networks */,
+				F0EB17DF2EA8BA050041243E /* AppDefault */,
+				F0EB17E12EA8BA050041243E /* EnvironmentManager */,
+			);
+			productName = ForecastDvt;
+			productReference = F0C2772E2EA3E0B1001FA722 /* ForecastDvt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0C2773C2EA3E0B3001FA722 /* ForecastDvtTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0C277542EA3E0B3001FA722 /* Build configuration list for PBXNativeTarget "ForecastDvtTests" */;
+			buildPhases = (
+				F0C277392EA3E0B3001FA722 /* Sources */,
+				F0C2773A2EA3E0B3001FA722 /* Frameworks */,
+				F0C2773B2EA3E0B3001FA722 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0C2773F2EA3E0B3001FA722 /* PBXTargetDependency */,
+			);
+			name = ForecastDvtTests;
+			packageProductDependencies = (
+			);
+			productName = ForecastDvtTests;
+			productReference = F0C2773D2EA3E0B3001FA722 /* ForecastDvtTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0C277462EA3E0B3001FA722 /* ForecastDvtUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0C277572EA3E0B3001FA722 /* Build configuration list for PBXNativeTarget "ForecastDvtUITests" */;
+			buildPhases = (
+				F0C277432EA3E0B3001FA722 /* Sources */,
+				F0C277442EA3E0B3001FA722 /* Frameworks */,
+				F0C277452EA3E0B3001FA722 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0C277492EA3E0B3001FA722 /* PBXTargetDependency */,
+			);
+			name = ForecastDvtUITests;
+			packageProductDependencies = (
+			);
+			productName = ForecastDvtUITests;
+			productReference = F0C277472EA3E0B3001FA722 /* ForecastDvtUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0C277262EA3E0B1001FA722 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					F0C2772D2EA3E0B1001FA722 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					F0C2773C2EA3E0B3001FA722 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = F0C2772D2EA3E0B1001FA722;
+					};
+					F0C277462EA3E0B3001FA722 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = F0C2772D2EA3E0B1001FA722;
+					};
+				};
+			};
+			buildConfigurationList = F0C277292EA3E0B1001FA722 /* Build configuration list for PBXProject "ForecastDvt" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0C277252EA3E0B1001FA722;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F0C2772F2EA3E0B1001FA722 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0C2772D2EA3E0B1001FA722 /* ForecastDvt */,
+				F0C2773C2EA3E0B3001FA722 /* ForecastDvtTests */,
+				F0C277462EA3E0B3001FA722 /* ForecastDvtUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0C2772C2EA3E0B1001FA722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C2775B2EA3E0FE001FA722 /* .swiftlint.yml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C2773B2EA3E0B3001FA722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C277452EA3E0B3001FA722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F0C277742EA3E585001FA722 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nSWIFTLINT_BIN=\"/opt/homebrew/bin/swiftlint\"\n\nif [ -x \"$SWIFTLINT_BIN\" ]; then\n    echo \"🔍 Running SwiftLint...\"\n\n    REPO_ROOT=\"${SRCROOT}\" # points to Weather Dvt/ where .swiftlint.yml resides\n\n    PATHS_TO_LINT=(\n      \"ForecastDvt\"          # main app target folder inside SRCROOT\n      \"Packages/Utils\"\n      \"Packages/Domain\"\n      \"Packages/Data\"\n    )\n\n    for folder in \"${PATHS_TO_LINT[@]}\"; do\n        echo \"Linting: $folder\"\n        \"$SWIFTLINT_BIN\" lint --config \"${REPO_ROOT}/.swiftlint.yml\" \"${REPO_ROOT}/${folder}\"\n    done\n\n    echo \"✅ SwiftLint completed!\"\nelse\n    echo \"⚠️ SwiftLint not installed at $SWIFTLINT_BIN, skipping lint.\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0C2772A2EA3E0B1001FA722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C277392EA3E0B3001FA722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C277432EA3E0B3001FA722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0C2773F2EA3E0B3001FA722 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0C2772D2EA3E0B1001FA722 /* ForecastDvt */;
+			targetProxy = F0C2773E2EA3E0B3001FA722 /* PBXContainerItemProxy */;
+		};
+		F0C277492EA3E0B3001FA722 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0C2772D2EA3E0B1001FA722 /* ForecastDvt */;
+			targetProxy = F0C277482EA3E0B3001FA722 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F0C2774F2EA3E0B3001FA722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0C277502EA3E0B3001FA722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0C277522EA3E0B3001FA722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to show accurate weather information for your area.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dvt.Task.ForecastDvt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0C277532EA3E0B3001FA722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to show accurate weather information for your area.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dvt.Task.ForecastDvt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0C277552EA3E0B3001FA722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dvt.Task.ForecastDvtTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForecastDvt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ForecastDvt";
+			};
+			name = Debug;
+		};
+		F0C277562EA3E0B3001FA722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dvt.Task.ForecastDvtTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForecastDvt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ForecastDvt";
+			};
+			name = Release;
+		};
+		F0C277582EA3E0B3001FA722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dvt.Task.ForecastDvtUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ForecastDvt;
+			};
+			name = Debug;
+		};
+		F0C277592EA3E0B3001FA722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dvt.Task.ForecastDvtUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ForecastDvt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0C277292EA3E0B1001FA722 /* Build configuration list for PBXProject "ForecastDvt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0C2774F2EA3E0B3001FA722 /* Debug */,
+				F0C277502EA3E0B3001FA722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0C277512EA3E0B3001FA722 /* Build configuration list for PBXNativeTarget "ForecastDvt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0C277522EA3E0B3001FA722 /* Debug */,
+				F0C277532EA3E0B3001FA722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0C277542EA3E0B3001FA722 /* Build configuration list for PBXNativeTarget "ForecastDvtTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0C277552EA3E0B3001FA722 /* Debug */,
+				F0C277562EA3E0B3001FA722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0C277572EA3E0B3001FA722 /* Build configuration list for PBXNativeTarget "ForecastDvtUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0C277582EA3E0B3001FA722 /* Debug */,
+				F0C277592EA3E0B3001FA722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F08F2E482EA4F16A008B91D7 /* Domain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Domain;
+		};
+		F08F2E4A2EA4F16A008B91D7 /* Forcast */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Forcast;
+		};
+		F08F2E4C2EA4F16A008B91D7 /* Router */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Router;
+		};
+		F08F2E4E2EA4F16A008B91D7 /* Utils */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Utils;
+		};
+		F0EB17D52EA8B68F0041243E /* LocationService */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LocationService;
+		};
+		F0EB17D72EA8B68F0041243E /* Models */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Models;
+		};
+		F0EB17DB2EA8B68F0041243E /* Repositories */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Repositories;
+		};
+		F0EB17DD2EA8B7D90041243E /* Networks */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Networks;
+		};
+		F0EB17DF2EA8BA050041243E /* AppDefault */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppDefault;
+		};
+		F0EB17E12EA8BA050041243E /* EnvironmentManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = EnvironmentManager;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F0C277262EA3E0B1001FA722 /* Project object */;
+}

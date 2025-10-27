@@ -1,0 +1,75 @@
+#
+//  .swiftlint.yml
+//  ForecastDvt
+//
+//  Created by Rizvi Naqvi on 18/10/2025.
+//
+
+included
+  - "Packages/Domain"
+  - "Packages/Data"
+  - "Packages/Favorite"
+  - "Packages/Forcast"
+
+excluded
+  - "ForecastDvtTests"
+  - "ForecastDvtUITests"
+  - "DerivedData"
+  - ".build"
+  - "Package.resolved"
+
+disabled_rules
+  - line_length
+  - type_body_length
+  - file_length
+  - function_body_length
+  - force_cast
+  - force_try
+  - trailing_whitespace
+  - nesting
+  - todo
+  - identifier_name
+  - cyclomatic_complexity
+  - unused_optional_binding
+
+opt_in_rules
+  - empty_count
+  - force_unwrapping
+  - closure_spacing
+  - operator_usage_whitespace
+  - attributes
+  - unused_import
+  - redundant_nil_coalescing
+  - first_where
+  - contains_over_first_not_nil
+  - yoda_condition
+  - conditional_returns_on_newline
+  - explicit_init
+  - sorted_imports
+  - multiline_arguments
+  - vertical_whitespace_opening_braces
+  - vertical_whitespace_closing_braces
+
+type_name
+  min_length 1
+  max_length 50
+identifier_name
+  excluded
+    - T
+    - id
+    - x
+    - y
+    - i
+    - j
+
+function_parameter_count
+  warning 6
+  error 8
+
+line_length
+  warning 250
+  error 300
+  ignores_comments true
+  ignores_urls true
+
+reporter "xcode"

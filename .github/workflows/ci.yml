@@ -1,0 +1,65 @@
+---
+name: ForecastDvt CI
+
+on:
+  pull_request:
+    branches:
+      - develop
+      - main
+  push:
+    branches:
+      - develop
+      - main
+
+jobs:
+  build-and-test:
+    name: Build and Test All Modules
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Xcode
+        uses: maxim-lobanov/setup-xcode@v2
+        with:
+          xcode-version: '16.3'
+
+      - name: Resolve Swift Packages
+        run: swift package resolve
+
+      - name: Run Tests for Packages
+        run: |
+          echo "🧪 Running tests for all Swift Packages..."
+          cd Packages
+          for pkg in */; do
+            if [ -d "$pkg" ]; then
+              echo "🧩 Testing $pkg"
+              cd "$pkg"
+              swift test --parallel --enable-code-coverage || exit 1
+              cd ..
+            fi
+          done
+
+      - name: Run iOS App Tests
+        run: |
+          echo "📱 Running Xcode project tests..."
+          xcodebuild test \
+            -workspace ForecastDvt.xcworkspace \
+            -scheme ForecastDvt \
+            -destination 'platform=iOS Simulator,name=iPhone 16e,OS=18.4' \
+            -enableCodeCoverage YES
+
+      - name: Export Code Coverage Report
+        run: |
+          mkdir -p coverage
+          xcrun llvm-cov export \
+            -format=cobertura \
+            $(find . -type d -name "*.xcresult" | head -n 1) \
+            > coverage/coverage.xml || true
+
+      - name: Upload Coverage Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: code-coverage
+          path: coverage/coverage.xml
