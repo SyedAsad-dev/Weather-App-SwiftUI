@@ -130,13 +130,13 @@ This application uses the Mixed Interface Modular approach.
 ## 🗂 Structural View
 
 <p align="center"> 
-<img src="https://github.com/user-attachments/assets/8ff3e955-738d-440b-bc73-aa3ddb6d8590" width="512" height="664">
+<img src="https://github.com/user-attachments/assets/8e3b0bc3-2dc7-4c9b-b9a8-2399fb589db8" width="512" height="664">
 </p>
 
 ## Test Cases
 
 <p align="center"> 
-<img src="https://github.com/user-attachments/assets/5d261a40-9f0c-401c-8be5-dcb037dbae48" width="988" height="1524">
+<img src="https://github.com/user-attachments/assets/3b605a16-51f6-47ea-bcee-a8a74be6d7ef" width="900" height="1434">
 </p>
 
 ## Performance Chat
@@ -149,15 +149,15 @@ This application uses the Mixed Interface Modular approach.
 
 ### iPhone 16 Pro Max
 <p align="center"> 
-<img src="https://github.com/user-attachments/assets/62b8f9c7-a142-492b-a5a8-6295ebec8f1b" width="250" height="500">
+<img src="https://github.com/user-attachments/assets/8d38d1b6-1dfb-4319-9d02-6af79ad0b4a3" width="250" height="500">
 
-<img src="https://github.com/user-attachments/assets/37c9c021-4d8f-434b-b675-4063eb8faa00" width="250" height="500">
+<img src="https://github.com/user-attachments/assets/4ab377b2-536c-4552-9d6b-29c17b829900" width="250" height="500">
 
-<img src="https://github.com/user-attachments/assets/9a4462f6-fff2-4259-a678-d95ebffdd149" width="250" height="500">
+<img src="https://github.com/user-attachments/assets/53e14375-9511-46e3-9b51-7eb815f23032" width="250" height="500">
 </p>
 
 ### iPad Pro 13-inch (M4)
 <p align="center"> 
-<img src="https://github.com/user-attachments/assets/7722b4c7-b853-4d7f-b747-6abd1b9734dd" width="350" height="560">
+<img src="https://github.com/user-attachments/assets/2b3f78d2-ee69-4486-80a6-6ea95ce2755e" width="350" height="560">
 </p>
 
