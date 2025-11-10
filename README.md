@@ -149,11 +149,11 @@ This application uses the Mixed Interface Modular approach.
 
 ### iPhone 16 Pro Max
 <p align="center"> 
-<img src="https://github.com/user-attachments/assets/8d38d1b6-1dfb-4319-9d02-6af79ad0b4a3" width="250" height="500">
+<img src="https://github.com/user-attachments/assets/53e14375-9511-46e3-9b51-7eb815f23032" width="250" height="500">
 
 <img src="https://github.com/user-attachments/assets/4ab377b2-536c-4552-9d6b-29c17b829900" width="250" height="500">
 
-<img src="https://github.com/user-attachments/assets/53e14375-9511-46e3-9b51-7eb815f23032" width="250" height="500">
+<img src="https://github.com/user-attachments/assets/8d38d1b6-1dfb-4319-9d02-6af79ad0b4a3" width="250" height="500">
 </p>
 
 ### iPad Pro 13-inch (M4)
